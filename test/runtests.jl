@@ -1,6 +1,5 @@
 using TrajUtils
+using LinearAlgebra
 using Test
 
-@testset "TrajUtils.jl" begin
-    # Write your tests here.
-end
+include("discretization_test.jl")

@@ -1,5 +1,8 @@
 module TrajUtils
+using LinearAlgebra
 
-# Write your package code here.
+include("structs.jl")
+include("discretize.jl")
 
+export ptr, discretize!, RK4
 end
