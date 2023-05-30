@@ -16,6 +16,5 @@ jobs:
       - uses: julia-actions/julia-buildpkg@latest
       - uses: julia-actions/julia-runtest@latest
       - uses: codecov/codecov-action@v3
-          env: CODECOV_TOKEN: ${{ secrets.CODECOV_TOKEN }}
 
      
